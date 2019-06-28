@@ -9,6 +9,7 @@ from Act9 import *
 from Act10 import *
 from Act11 import *
 from Act12 import *
+from Act13 import *
 
 print ("Actividad 1")
 print ("El producto mas caro es: " + producto_mas_caro(productos))
@@ -52,4 +53,8 @@ print ("\n")
 
 print ("Actividad 12")
 print("Existe producto?: " +existe_producto(1265))
+print ("\n")
+
+print ("Actividad 13")
+ordenar()
 print ("\n")
