@@ -4,7 +4,7 @@ from Act3 import *
 from Act4 import *
 from Act5 import *
 from Act7 import *
-
+from Act8 import *
 
 print ("Actividad 1")
 print ("El producto mas caro es: " + producto_mas_caro(productos))
@@ -29,3 +29,7 @@ print("El numero de letras es el siguiente: " + contar_letras('El elefante avanz
 
 print ("Actividad 7")
 print("Son anagramas?: " + son_anagramas('torpes', 'postre')+"\n")
+
+print ("Actividad 8")
+print("Es vocal?: " + es_vocal('A'))
+print("Es consonante?: " + es_consonante('A')+"\n")
