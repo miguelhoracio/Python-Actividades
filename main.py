@@ -2,6 +2,7 @@ from Act1 import *
 from Act2 import *
 from Act3 import *
 from Act4 import *
+from Act5 import *
 
 print ("Actividad 1")
 print ("El producto mas caro es: " + producto_mas_caro(productos))
@@ -20,3 +21,6 @@ print ("La derivada del polinomio es : "+ derivar_polinomio(r)+"\n")
 print ("Actividad 4")
 print ("Ordenar por palabra mas corta:  " + s.__str__())
 print ("Ordenar por palabra mas larga:  " + list(reversed(s)).__str__()+"\n")
+
+print ("Actividad 5")
+print("El numero de letras es el siguiente: " + contar_letras('El elefante avanza hacia Asia')+"\n")
