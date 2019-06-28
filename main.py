@@ -3,6 +3,8 @@ from Act2 import *
 from Act3 import *
 from Act4 import *
 from Act5 import *
+from Act7 import *
+
 
 print ("Actividad 1")
 print ("El producto mas caro es: " + producto_mas_caro(productos))
@@ -24,3 +26,6 @@ print ("Ordenar por palabra mas larga:  " + list(reversed(s)).__str__()+"\n")
 
 print ("Actividad 5")
 print("El numero de letras es el siguiente: " + contar_letras('El elefante avanza hacia Asia')+"\n")
+
+print ("Actividad 7")
+print("Son anagramas?: " + son_anagramas('torpes', 'postre')+"\n")
