@@ -7,6 +7,7 @@ from Act7 import *
 from Act8 import *
 from Act9 import *
 from Act10 import *
+from Act11 import *
 
 print ("Actividad 1")
 print ("El producto mas caro es: " + producto_mas_caro(productos))
@@ -42,4 +43,8 @@ print ("\n")
 
 print ("Actividad 10")
 paso()
+print ("\n")
+
+print ("Actividad 11")
+cuenta_caracteres()
 print ("\n")
