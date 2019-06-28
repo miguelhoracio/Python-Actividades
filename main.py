@@ -6,6 +6,7 @@ from Act5 import *
 from Act7 import *
 from Act8 import *
 from Act9 import *
+from Act10 import *
 
 print ("Actividad 1")
 print ("El producto mas caro es: " + producto_mas_caro(productos))
@@ -37,4 +38,8 @@ print("Es consonante?: " + es_consonante('A')+"\n")
 
 print ("Actividad 9")
 aprobo()
+print ("\n")
+
+print ("Actividad 10")
+paso()
 print ("\n")
